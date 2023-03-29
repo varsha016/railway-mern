@@ -12,7 +12,8 @@ const app = express()
 connectedDb()
 app.use(express.json())
 app.use(express.static("public"))
-// app.use(express.static(path.json(__dirname,"public")))
+app.use(express.static(path.json(__dirname,"build")))
+app.use(express.static(path.json(__dirname,"public")))
 app.use(log)
 app.use(cors({
     credentials: true,
@@ -33,12 +34,12 @@ app.use(cors({
     }
 }))
 app.use(cookieParser())
-app.use("/user", require("./routes/userRoutes"))
-app.use("/cart", require("./routes/cartRoutes"))
-app.use("/order", require("./routes/orderRoutes"))
-app.use("/employee", require("./routes/employeeRoutes"))
-app.use("/auth", require("./routes/authRoutes"))
-app.use("/products", require("./routes/productRoutes"))
+app.use("/api/user", require("./routes/userRoutes"))
+app.use("/api/cart", require("./routes/cartRoutes"))
+app.use("/api/order", require("./routes/orderRoutes"))
+app.use("/api/employee", require("./routes/employeeRoutes"))
+app.use("/api/auth", require("./routes/authRoutes"))
+app.use("/api/products", require("./routes/productRoutes"))
 
 app.use("*", (req, res) => {
     res.status(404).json({
