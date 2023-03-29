@@ -1,0 +1,32 @@
+24-03-2023 	 14:52:54	
+    ValidationError	order validation failed: paymentMode: `CoD` is not a valid enum value for path `paymentMode`.	POST	/order/order-place	http://localhost:3000
+24-03-2023 	 14:51:28	
+    TypeError	Cannot read properties of null (reading 'products')	POST	/order/order-place	http://localhost:3000
+24-03-2023 	 14:51:23	
+    ValidationError	order validation failed: paymentMode: `CoD` is not a valid enum value for path `paymentMode`.	POST	/order/order-place	http://localhost:3000
+24-03-2023 	 14:48:15	
+    ValidationError	order validation failed: paymentMode: `CoD` is not a valid enum value for path `paymentMode`.	POST	/order/order-place	http://localhost:3000
+23-03-2023 	 10:26:35	
+    TokenExpiredError	jwt expired	GET	/cart/cart-histroy	http://localhost:3000
+23-03-2023 	 10:26:35	
+    TokenExpiredError	jwt expired	GET	/cart/cart-histroy	http://localhost:3000
+23-03-2023 	 10:25:45	
+    TokenExpiredError	jwt expired	GET	/cart/cart-histroy	http://localhost:3000
+23-03-2023 	 10:22:03	
+    TokenExpiredError	jwt expired	GET	/cart/cart-histroy	http://localhost:3000
+23-03-2023 	 10:22:03	
+    TokenExpiredError	jwt expired	GET	/cart/cart-histroy	http://localhost:3000
+22-03-2023 	 21:21:11	
+    TokenExpiredError	jwt expired	GET	/user/profile	http://localhost:3000
+22-03-2023 	 21:21:11	
+    TokenExpiredError	jwt expired	GET	/user/profile	http://localhost:3000
+22-03-2023 	 21:21:03	
+    TokenExpiredError	jwt expired	GET	/cart/cart-histroy	http://localhost:3000
+22-03-2023 	 21:21:03	
+    TokenExpiredError	jwt expired	GET	/cart/cart-histroy	http://localhost:3000
+22-03-2023 	 21:20:59	
+    TokenExpiredError	jwt expired	GET	/cart/cart-histroy	http://localhost:3000
+22-03-2023 	 21:20:59	
+    TokenExpiredError	jwt expired	GET	/cart/cart-histroy	http://localhost:3000
+22-03-2023 	 21:19:37	
+    TokenExpiredError	jwt expired	GET	/cart/cart-histroy	http://localhost:3000

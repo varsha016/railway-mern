@@ -1,0 +1,9 @@
+24-03-2023 	 16:35:41	POST	/auth/user/login	http://localhost:3000
+24-03-2023 	 16:35:41	GET	/user/profile	http://localhost:3000
+24-03-2023 	 16:35:41	GET	/user/profile	http://localhost:3000
+24-03-2023 	 16:35:41	OPTIONS	/user/profile	http://localhost:3000
+24-03-2023 	 16:35:39	GET	/cart/cart-histroy	http://localhost:3000
+24-03-2023 	 16:35:39	OPTIONS	/cart/cart-histroy	http://localhost:3000
+24-03-2023 	 16:35:26	GET	/employee/users	http://localhost:3000
+24-03-2023 	 16:35:26	OPTIONS	/employee/users	http://localhost:3000
+24-03-2023 	 16:35:26	PUT	/employee/users/status/64006f61f72ce8cdf075f3f1	http://localhost:3000
